@@ -65,6 +65,74 @@ Click the popup window to proceed.
 
 - Request Faucet Tokens: https://faucet.octra.network
 
+# After Generating Wallet — Try These New Steps (Updated by OctraLabs)
+
+Once you've generated your wallet, follow these updated steps to test the new Octra client features:
+
+## 🔧 Step-by-Step:
+
+- First run this command to see files:
+
+```bash
+ls
+```
+
+- Enter the client folder:
+
+```bash
+cd octra_pre_client
+```
+
+- Pull the latest updates:
+
+```bash
+git pull
+```
+
+- Clean your terminal screen:
+
+```bash
+clear
+```
+
+- If Python isn’t installed yet, run:
+
+```bash
+sudo apt update
+sudo apt install python3 python3-pip -y
+```
+
+- Activate virtual environment:
+
+```bash
+source venv/bin/activate
+```
+
+- Now launch the client:
+
+```bash
+./run.sh
+```
+
+### What You’ll See
+The wallet interface will open with multiple options. Use your keyboard arrow keys or number keys (`1`, `2`, `3`...) to navigate.
+
+### 🪙 To Send a Transaction:
+
+- Go to option 1: Send Transaction
+- Press `1` again → Enter recipient address → Enter amount → Press `y` to confirm
+
+### 🔐 To Encrypt Your Balance (New Feature):
+- Go to option 4: Encrypt Balance
+
+- Enter the amount of $OCT you want to encrypt
+
+- Press `y` to confirm
+
+- That's it — your tokens are now encrypted on-chain!
+
+
+
 # 🛡️ Octra Validator Node Setup
 
 
